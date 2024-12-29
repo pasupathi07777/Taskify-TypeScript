@@ -36,7 +36,7 @@ const SingleTodo: React.FC<Props> = ({ todo, todso, setTodos }: Props) => {
   }, [edit]);
 
   return (
-    <div className="flex justify-between gap-2 bg-yellow-400 px-2 py-2 h-[60px] rounded-lg items-center text-black text-[20px] ">
+    <div className="flex justify-between gap-2 bg-yellow-400 px-2 py-2 h-[60px] rounded-full items-center text-black text-[20px] ">
       {edit ? (
         <input 
           type="text"

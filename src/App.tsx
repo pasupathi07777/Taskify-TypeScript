@@ -58,7 +58,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="App p-4 flex flex-col gap-4">
+    <div className="App p-4 flex flex-col gap-4 min-h-screen overflow-y-auto bg-blue-700">
       <h1 className="text-center text-white text-2xl font-semibold">Taskify</h1>
       <InputFeilds todo={todo} setTodo={setTodo} handlAdd={handlAdd} />
       <TodoList todso={todso} setTodos={setTodos} />
